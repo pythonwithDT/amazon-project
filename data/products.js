@@ -1,4 +1,5 @@
-const products = [
+                    // an array was created to hold the indivdual items and thier respective rates,prices tec.
+const products = [  // this contains the products which are pushed onto the web using the innerHTML
   {
     id: "e43638ce-6aa0-4b85-b27f-e1d07eb678c6",
     image: "images/products/athletic-cotton-socks-6-pairs.jpg",

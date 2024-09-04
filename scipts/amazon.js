@@ -1,6 +1,6 @@
-let productsHTML = '';
+let productsHTML = '';  // this is a variable that call and empty products
 
-products.forEach( (product) => {
+products.forEach( (product) => {  // this is a forloop===> [this a function that takes products and places them in the productsHTML]
     productsHTML +=` 
         <div class="product-container">
             <div class="product-image-container">
