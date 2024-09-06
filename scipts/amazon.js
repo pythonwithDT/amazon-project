@@ -62,13 +62,13 @@ document.querySelector('.js-products-grid').innerHTML = productsHTML;
 
 document.querySelectorAll('.js-add-to-card').forEach( (button) => { // we added an event listener which when we click on the add to cart will add the cart
     button.addEventListener('click', () => { // we looped through all the buttons to listen for the click. 
-        const productId = button.dataset.productId;
+        const productId = button.dataset.productId;  // this is a variable that will hold the product id
 
-        let matchingItem;
+        let matchingItem;  // this is a variable that will hold the matching item
 
-        cart.forEach( (item) => {
-            if(productId === item.productId) {
-                matchingItem = item; 
+        cart.forEach( (item) => {  // this is a forloop that will loop through the cart
+            if(productId === item.productId) {  //  this is a condition that will check if the product id is equal to the item id
+                matchingItem = item;  // this is a variable that will hold the matching item
             }
         });
 

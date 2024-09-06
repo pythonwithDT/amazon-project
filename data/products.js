@@ -1,14 +1,14 @@
                     // an array was created to hold the indivdual items and thier respective rates,prices tec.
 const products = [  // this contains the products which are pushed onto the web using the innerHTML
   {
-    id: "e43638ce-6aa0-4b85-b27f-e1d07eb678c6",
+    id: "e43638ce-6aa0-4b85-b27f-e1d07eb678c6",  // thsi id provides a unique id to each product
     image: "images/products/athletic-cotton-socks-6-pairs.jpg",
     name: "Black and Gray Athletic Cotton Socks - 6 Pairs",
     rating: {
-      stars: 4.5,
-      count: 87
+      stars: 4.5,  // this is the rating of the product
+      count: 87  // this is the number of ratings
     },
-    priceCents: 1090,
+    priceCents: 1090,  // this is the price of the product
     keywords: [
       "socks",
       "sports",
